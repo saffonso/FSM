@@ -1,0 +1,6 @@
+alocacao de registradores
+
+a <= R0
+b <= R3
+c <= R1
+d <= R2

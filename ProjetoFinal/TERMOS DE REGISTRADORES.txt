@@ -1,0 +1,29 @@
+ALTO NIVEL
+a = read()
+b = constin(1)
+c = constin(10)
+repeat 
+   d = d + a
+   a = a - b
+   c = c - b
+until
+  c == 0
+print d
+
+ALOCACAO DE REGISTRADORES
+a <= R0
+b <= R3
+c <= R1
+d <= R2
+
+TERMOS DE REGISTRADORES
+R0 <= DATAIN
+R3 <= constantin(1)
+R1 <= contantin(1010)
+REPEAT 
+    R2 <= R2 + R0
+    R0 <= R0 - R3
+    R1 <= R1 - R3
+UNTIL flag z = 1
+DATAOUT <= R2 
+
